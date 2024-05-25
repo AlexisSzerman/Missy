@@ -116,7 +116,7 @@ const ChatComponent = () => {
       setLoading(true);
 
       try {
-        const response = await axios.post('http://localhost:5000/chat', { userInput: input });
+        const response = await axios.post('https://alexszer.pythonanywhere.com/chat', { userInput: input });
         const botMessage = { sender: 'bot', text: response.data.response };
         setMessages((prevMessages) => [...prevMessages, botMessage]);
       } catch (error) {
