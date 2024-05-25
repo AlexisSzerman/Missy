@@ -18,6 +18,12 @@ function Welcome() {
       <Text fontSize="xl" textAlign="center">
         Asistente Virtual de Cong. Plaza de la Misericordia
       </Text>
+      <Text fontSize="lg" textAlign="center" mt="4">
+        Preguntame sobre las salidas a predicar, las reuniones Vida y Ministerio Cristiano y del fin de semana.
+      </Text>
+      <Text fontSize="md" textAlign="center" color="teal.500" fontWeight="bold">
+        Recuerda que soy una Inteligencia Artificial y puedo cometer errores, por favor chequea la información.
+      </Text>
 
     </Flex>
   );
